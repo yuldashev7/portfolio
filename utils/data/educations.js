@@ -1,20 +1,16 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: 'Sertificate - Frontend Web Programming',
+    duration: 'Mar 2025 - Oct 2025',
+    institution: "Najot Ta'lim",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title:
+      'Bachelor of Finance and Information Technologies (Sophomore / 2nd Year Student)',
+    duration: '2023 - Present',
+    institution:
+      'Tashkent International University of Financial Management and Technologies',
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+];
