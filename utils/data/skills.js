@@ -14,5 +14,4 @@ export const skillsData = [
   'SCSS',
   'Tailwind-CSS',
   'Git',
-  'Figma',
 ];

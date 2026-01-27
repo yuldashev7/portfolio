@@ -1,5 +1,4 @@
 import css from '../app/assets/svg/skills/css.svg';
-import figma from '../app/assets/svg/skills/figma.svg';
 import gcp from '../app/assets/svg/skills/gcp.svg';
 import html from '../app/assets/svg/skills/html.svg';
 import javascript from '../app/assets/svg/skills/javascript.svg';
@@ -46,8 +45,6 @@ export const skillsImage = (skill) => {
       return git;
     case 'material-ui':
       return materialui;
-    case 'figma':
-      return figma;
     case 'shadcn-ui':
       return shadcn;
     case 'tanstack query':
