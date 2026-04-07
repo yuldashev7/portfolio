@@ -3,7 +3,7 @@ export const personalData = {
   profile: '/profile.jpg',
   designation: 'Frontend Developer',
   description:
-    'My name is Faxriddin Yuldashev. I am a professional and enthusiastic programmer in my daily life. I love to explore new technologies and am deeply passionate about problem-solving. I am experienced in almost all the stacks of web application development and aim to make the web more open to the world. My core skill is based on JavaScript, and I excel at building robust applications using the JavaScript ecosystem. I am available for any kind of job opportunity that suits my skills and interests.',
+    "My name is Faxriddin Yuldashev, a dedicated Frontend Engineer with a passion for building scalable and high-performance web applications. I specialize in the JavaScript/TypeScript ecosystem, with deep expertise in Next.js and Feature-Sliced Design (FSD) architecture.I thrive on solving complex problems and optimizing user experiences. Whether it's developing enterprise-level CRM systems or crafting interactive LMS platforms, I focus on writing clean, maintainable, and efficient code. I am always eager to embrace new challenges and am open to opportunities where I can contribute my technical skills to impactful projects.",
   email: 'faxriddinyuldashev.777@gmail.com',
   phone: '+998 (99) 693-83-06',
   address: 'Uzbekistan, Tashkent',
