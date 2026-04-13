@@ -1,10 +1,23 @@
+'use client';
+
 import Link from 'next/link';
+import { useI18n } from '@/providers/language-provider';
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from './ui/select';
 
 function Navbar() {
+  const { language, setLanguage, t } = useI18n();
+
   return (
     <nav className="bg-transparent">
       <div className="flex items-center justify-between py-5">
-        <div className="flex flex-shrink-0 items-center">
+        <div className="flex shrink-0 items-center">
           <Link href="/" className=" text-[#16f2b3] text-2xl font-bold">
             Yuldashev Faxriddin
           </Link>
@@ -20,7 +33,7 @@ function Navbar() {
               href="/#about"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                ABOUT
+                {t('navbar.about')}
               </div>
             </Link>
           </li>
@@ -30,7 +43,7 @@ function Navbar() {
               href="/#experience"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EXPERIENCE
+                {t('navbar.experience')}
               </div>
             </Link>
           </li>
@@ -40,7 +53,7 @@ function Navbar() {
               href="/#skills"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                SKILLS
+                {t('navbar.skills')}
               </div>
             </Link>
           </li>
@@ -50,7 +63,7 @@ function Navbar() {
               href="/#education"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EDUCATION
+                {t('navbar.education')}
               </div>
             </Link>
           </li>
@@ -60,9 +73,28 @@ function Navbar() {
               href="/#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                PROJECTS
+                {t('navbar.projects')}
               </div>
             </Link>
+          </li>
+
+          <li>
+            <Select
+              defaultValue="uz"
+              value={language}
+              onValueChange={setLanguage}
+            >
+              <SelectTrigger className="w-full max-w-46 cursor-pointer">
+                <SelectValue placeholder="UZ" />
+              </SelectTrigger>
+              <SelectContent position="popper">
+                <SelectGroup>
+                  <SelectItem value="uz">UZ</SelectItem>
+                  <SelectItem value="ru">RU</SelectItem>
+                  <SelectItem value="en">EN</SelectItem>
+                </SelectGroup>
+              </SelectContent>
+            </Select>
           </li>
         </ul>
       </div>

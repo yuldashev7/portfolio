@@ -1,4 +1,6 @@
-import { educations } from '@/utils/data/educations';
+'use client';
+
+import { useI18n } from '@/providers/language-provider';
 import Image from 'next/image';
 import { BsPersonWorkspace } from 'react-icons/bs';
 import lottieFile from '../../../assets/lottie/study.json';
@@ -6,6 +8,9 @@ import AnimationLottie from '../../helper/animation-lottie';
 import GlowCard from '../../helper/glow-card';
 
 function Education() {
+  const { dictionary } = useI18n();
+  const educations = dictionary.education.items;
+
   return (
     <div
       id="education"
@@ -13,29 +18,29 @@ function Education() {
     >
       <Image
         src="/section.svg"
-        alt="Hero"
+        alt="Section background"
         width={1572}
         height={795}
         className="absolute top-0 -z-10"
       />
-      <div className="flex justify-center -translate-y-[1px]">
+      <div className="flex justify-center -translate-y-px">
         <div className="w-3/4">
-          <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
+          <div className="h-px] bg-linear-to-r from-transparent via-violet-500 to-transparent w-full" />
         </div>
       </div>
 
       <div className="flex justify-center my-5 lg:py-8">
-        <div className="flex  items-center">
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+        <div className="flex items-center">
+          <span className="w-24 h-0.5 bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+            {dictionary.education.title}
           </span>
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-24 h-0.5 bg-[#1a1443]"></span>
         </div>
       </div>
 
       <div className="py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-3/4 h-3/4">
               <AnimationLottie animationPath={lottieFile} />
@@ -52,7 +57,7 @@ function Education() {
                   <div className="p-3 relative text-white">
                     <Image
                       src="/blur-23.svg"
-                      alt="Hero"
+                      alt="Blur"
                       width={1080}
                       height={200}
                       className="absolute bottom-0 opacity-80"
@@ -63,7 +68,7 @@ function Education() {
                       </p>
                     </div>
                     <div className="flex items-center gap-x-8 px-3 py-5">
-                      <div className="text-violet-500  transition-all duration-300 hover:scale-125">
+                      <div className="text-violet-500 transition-all duration-300 hover:scale-125">
                         <BsPersonWorkspace size={36} />
                       </div>
                       <div>

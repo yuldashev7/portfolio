@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "Portfolio of Yuldashev Faxriddin - Frontend Developer",
+    "description": "This is the portfolio of Faxriddin Yuldashev. I am a Frontend Developer with a strong passion for building responsive and user-friendly web applications."
+  },
+  "navbar": {
+    "about": "ABOUT",
+    "experience": "EXPERIENCE",
+    "skills": "SKILLS",
+    "education": "EDUCATION",
+    "projects": "PROJECTS"
+  },
+  "hero": {
+    "greeting": "Hello,",
+    "introPrefix": "This is",
+    "introMiddle": ", I'm a Professional",
+    "designation": "Frontend Developer",
+    "contact": "Contact me",
+    "resume": "Get Resume",
+    "code": {
+      "name": "name",
+      "skills": "skills",
+      "hardWorker": "hardWorker",
+      "quickLearner": "quickLearner",
+      "problemSolver": "problemSolver",
+      "hireable": "hireable",
+      "return": "return"
+    }
+  },
+  "about": {
+    "sideTitle": "ABOUT ME",
+    "title": "ABOUT ME",
+    "description": "My name is Faxriddin Yuldashev, a dedicated Frontend Engineer with a passion for building scalable and high-performance web applications. I specialize in the JavaScript/TypeScript ecosystem, with deep expertise in Next.js and Feature-Sliced Design architecture. I thrive on solving complex problems and optimizing user experiences. Whether it's developing enterprise-level CRM systems or crafting interactive LMS platforms, I focus on writing clean, maintainable, and efficient code. I am always eager to embrace new challenges and open to opportunities where I can contribute my technical skills to impactful projects."
+  },
+  "experience": {
+    "title": "Experiences",
+    "items": [
+      {
+        "id": 1,
+        "title": "Frontend Developer Intern",
+        "company": "IT HOUSE edu.",
+        "duration": "(Nov 2025 - Feb 2026)"
+      },
+      {
+        "id": 2,
+        "title": "Frontend Developer",
+        "company": "Infonex.uz",
+        "duration": "(Mar 2026 - Present)"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "code": {
+      "name": "name",
+      "tools": "tools",
+      "role": "myRole",
+      "description": "description"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Nasiya Savdo",
+        "description": "An installment sales management system with three user roles (Super Admin, Admin, Store). The system helps small businesses efficiently manage debtors, stores, and administrators. It includes role-based authentication, authorization, and full CRUD operations. The project also has an OTP verification flow implemented locally for testing. Although it is a small project, it is fully integrated with a backend.",
+        "role": "Frontend Developer"
+      },
+      {
+        "id": 2,
+        "name": "Gipermart",
+        "description": "An online retail platform offering household appliances, electronics, home goods, and other products. The website gives users a convenient interface, detailed product information, and a smooth shopping experience. A frontend-only demo authentication is implemented with localStorage to simulate login, logout, and user sessions.",
+        "role": "Frontend Developer"
+      },
+      {
+        "id": 3,
+        "name": "IT HOUSE ONLINE COURSES",
+        "description": "The main features of the platform include a course catalog, single course pages, video player integration, an interactive test module, and a personal user account. The project is currently in the testing phase, and some features are still being refined.",
+        "role": "Frontend Developer"
+      },
+      {
+        "id": 4,
+        "name": "INFODESK - ERP & LMS ECOSYSTEM",
+        "description": "A comprehensive management and learning platform designed for educational centers. Its key features include role-based dashboards for CEO, Admin, Teacher, and Student, an advanced CRM integrated with the Instagram API for lead management, real-time chat and notifications, financial analytics, and a gamified LMS with interactive tests, educational reels, and a coin-based market. The project is currently in an early development stage, and the core features are actively being built.",
+        "role": "Frontend Developer"
+      }
+    ]
+  },
+  "education": {
+    "title": "Educations",
+    "items": [
+      {
+        "id": 1,
+        "title": "Certificate - Frontend Web Programming",
+        "duration": "Mar 2025 - Oct 2025",
+        "institution": "Najot Ta'lim"
+      },
+      {
+        "id": 2,
+        "title": "Bachelor of Finance and Information Technologies (2nd Year Student)",
+        "duration": "2023 - Present",
+        "institution": "Tashkent International University of Financial Management and Technologies"
+      }
+    ]
+  },
+  "contact": {
+    "sideTitle": "CONTACT",
+    "title": "Contact with me",
+    "description": "If you have any questions or concerns, please don't hesitate to contact me. I am open to work opportunities that align with my skills and interests.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "invalidEmail": "Please provide a valid email!",
+    "required": "All fields are required!",
+    "sending": "Sending Message...",
+    "send": "Send Message",
+    "success": "Message sent successfully!"
+  },
+  "footer": {
+    "copyright": "Developer Portfolio by"
+  }
+}

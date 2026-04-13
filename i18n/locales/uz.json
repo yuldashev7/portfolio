@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "Yuldashev Faxriddin portfoliosi - Frontend dasturchi",
+    "description": "Bu Faxriddin Yuldashevning portfoliosi. Men responsive va qulay web ilovalar yaratishga qiziqadigan Frontend dasturchiman."
+  },
+  "navbar": {
+    "about": "MEN HAQIMDA",
+    "experience": "TAJRIBA",
+    "skills": "KO'NIKMALAR",
+    "education": "TA'LIM",
+    "projects": "LOYIHALAR"
+  },
+  "hero": {
+    "greeting": "Salom,",
+    "introPrefix": "Mening ismim",
+    "introMiddle": ", men professional",
+    "designation": "Frontend dasturchi",
+    "contact": "Bog'lanish",
+    "resume": "Rezyume",
+    "code": {
+      "name": "name",
+      "skills": "skills",
+      "hardWorker": "hardWorker",
+      "quickLearner": "quickLearner",
+      "problemSolver": "problemSolver",
+      "hireable": "hireable",
+      "return": "return"
+    }
+  },
+  "about": {
+    "sideTitle": "MEN HAQIMDA",
+    "title": "Men haqimda",
+    "description": "Mening ismim Faxriddin Yuldashev. Men masshtablanuvchi va yuqori samarali web ilovalar yaratishga qiziqadigan Frontend da. JavaScript va TypeScript ekotizimida, ayniqsa Next.js va Feature-Sliced Design arxitekturasida chuqur tajribaga egaman. Murakkab muammolarni yechish va foydalanuvchi tajribasini yaxshilash menga yoqadi. Korporativ CRM tizimlari yoki interaktiv LMS platformalar bo'lsin, men doim toza, qo'llab-quvvatlashga qulay va samarali kod yozishga intilaman. Texnik bilimlarim bilan foydali loyihalarga hissa qo'sha oladigan yangi imkoniyatlarga har doim ochiqman."
+  },
+  "experience": {
+    "title": "Tajriba",
+    "items": [
+      {
+        "id": 1,
+        "title": "Frontend Developer Intern",
+        "company": "IT HOUSE edu.",
+        "duration": "(Noy 2025 - Fev 2026)"
+      },
+      {
+        "id": 2,
+        "title": "Frontend Developer",
+        "company": "Infonex.uz",
+        "duration": "(Mar 2026 - Hozirgacha)"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Ko'nikmalar"
+  },
+  "projects": {
+    "title": "LOYIHALAR",
+    "code": {
+      "name": "nomi",
+      "tools": "texnologiyalar",
+      "role": "roli",
+      "description": "tavsifi"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Nasiya Savdo",
+        "description": "Uch xil foydalanuvchi roli (Super Admin, Admin, Do'kon) uchun mo'ljallangan muddatli savdo boshqaruv tizimi. Tizim kichik bizneslarga qarzdorlar, do'konlar va administratorlarni samarali boshqarishga yordam beradi. Unda rolga asoslangan autentifikatsiya, avtorizatsiya va to'liq CRUD amallari mavjud. Shuningdek, loyiha test uchun lokal muhitda ishlaydigan OTP tasdiqlash oqimini ham o'z ichiga oladi. Kichik loyiha bo'lsa ham, backend bilan to'liq integratsiya qilingan.",
+        "role": "Frontend Developer"
+      },
+      {
+        "id": 2,
+        "name": "Gipermart",
+        "description": "Maishiy texnika, elektronika va uy-ro'zg'or mahsulotlarini taklif qiluvchi onlayn retail platforma. Sayt foydalanuvchilarga qulay interfeys, batafsil mahsulot ma'lumotlari va silliq onlayn xarid tajribasini beradi. Autentifikatsiya qismi demo maqsadda frontendning o'zida localStorage orqali login/logout va sessiyalarni imitatsiya qilish usulida qurilgan.",
+        "role": "Frontend Developer"
+      },
+      {
+        "id": 3,
+        "name": "IT HOUSE ONLINE COURSES",
+        "description": "Platformaning asosiy funksiyalari kurs katalogi, alohida kurs sahifalari, video player integratsiyasi, interaktiv test moduli va foydalanuvchi shaxsiy kabinetidan iborat. Loyiha hozir test bosqichida va ayrim funksiyalar hali takomillashtirilmoqda.",
+        "role": "Frontend Developer"
+      },
+      {
+        "id": 4,
+        "name": "INFODESK - ERP & LMS ECOSYSTEM",
+        "description": "Ta'lim markazlari uchun mo'ljallangan kompleks boshqaruv va o'quv platformasi. Asosiy imkoniyatlari orasida CEO, Admin, Teacher va Student rollari uchun dashboardlar, lead boshqaruvi uchun Instagram API bilan integratsiyalashgan CRM, real-time chat va notificationlar, moliyaviy analitika hamda interaktiv testlar, ta'limiy Reels va coin asosidagi marketga ega gamifikatsiyalashgan LMS bor. Loyiha hozir boshlang'ich rivojlantirish bosqichida va asosiy funksiyalar faol ravishda qurilmoqda.",
+        "role": "Frontend Developer"
+      }
+    ]
+  },
+  "education": {
+    "title": "Ta'lim",
+    "items": [
+      {
+        "id": 1,
+        "title": "Sertifikat - Frontend Web Programming",
+        "duration": "Mar 2025 - Okt 2025",
+        "institution": "Najot Ta'lim"
+      },
+      {
+        "id": 2,
+        "title": "Toshkent Xalqaro Moliyaviy Boshqaruv va Texnologiyalar Universiteti (2-kurs talabasi)",
+        "duration": "2023 - Hozirgacha",
+        "institution": "Tashkent International University of Financial Management and Technologies"
+      }
+    ]
+  },
+  "contact": {
+    "sideTitle": "ALOQA",
+    "title": "Men bilan bog'laning",
+    "description": "Agar sizda savol yoki taklif bo'lsa, bemalol yozing. Men ko'nikmalarim va qiziqishlarimga mos keladigan ish imkoniyatlariga ochiqman.",
+    "name": "Ismingiz",
+    "email": "Email manzilingiz",
+    "message": "Xabaringiz",
+    "invalidEmail": "Iltimos, to'g'ri email kiriting!",
+    "required": "Barcha maydonlar to'ldirilishi shart!",
+    "sending": "Xabar yuborilmoqda...",
+    "send": "Xabar yuborish",
+    "success": "Xabar muvaffaqiyatli yuborildi!"
+  },
+  "footer": {
+    "copyright": "Developer Portfolio by"
+  }
+}
