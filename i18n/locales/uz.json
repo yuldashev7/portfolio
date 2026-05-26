@@ -11,10 +11,8 @@
     "projects": "LOYIHALAR"
   },
   "hero": {
-    "greeting": "Salom,",
-    "introPrefix": "Mening ismim",
-    "introMiddle": ", men professional",
-    "designation": "Frontend dasturchi",
+    "hero_title": "Samaradorlik, toza UI & ",
+    "hero_title2": "real natijalarga yo‘naltirilgan Frontend dasturchi",
     "contact": "Bog'lanish",
     "resume": "Rezyume",
     "code": {
@@ -37,15 +35,15 @@
     "items": [
       {
         "id": 1,
-        "title": "Frontend Developer Intern",
+        "title": "Frontend Developer Amaliyotchi",
         "company": "IT HOUSE edu.",
-        "duration": "(Noy 2025 - Fev 2026)"
+        "duration": "(Yan 2025 - Mart 2026)"
       },
       {
         "id": 2,
         "title": "Frontend Developer",
         "company": "Infonex.uz",
-        "duration": "(Mar 2026 - Hozirgacha)"
+        "duration": "(Mart 2026 - Hozirgacha)"
       }
     ]
   },

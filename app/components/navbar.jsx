@@ -80,18 +80,24 @@ function Navbar() {
 
           <li>
             <Select
-              defaultValue="uz"
+              defaultValue="en"
               value={language}
               onValueChange={setLanguage}
             >
               <SelectTrigger className="w-full max-w-46 cursor-pointer">
-                <SelectValue placeholder="UZ" />
+                <SelectValue placeholder="EN" />
               </SelectTrigger>
               <SelectContent position="popper">
                 <SelectGroup>
-                  <SelectItem value="uz">UZ</SelectItem>
-                  <SelectItem value="ru">RU</SelectItem>
-                  <SelectItem value="en">EN</SelectItem>
+                  <SelectItem className="cursor-pointer" value="uz">
+                    UZ
+                  </SelectItem>
+                  <SelectItem className="cursor-pointer" value="ru">
+                    RU
+                  </SelectItem>
+                  <SelectItem className="cursor-pointer" value="en">
+                    EN
+                  </SelectItem>
                 </SelectGroup>
               </SelectContent>
             </Select>

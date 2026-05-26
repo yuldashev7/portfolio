@@ -24,11 +24,12 @@ function HeroSection() {
       <div className="grid grid-cols-1 items-start gap-y-8 lg:grid-cols-2 lg:gap-12">
         <div className="order-2 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:order-1 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-14">
-            {t('hero.greeting')} <br />
+            {/* {t('hero.greeting')} <br />
             {t('hero.introPrefix')}{' '}
-            <span className=" text-pink-500">{personalData.name}</span>
             {` ${t('hero.introMiddle')} `}
-            <span className=" text-[#16f2b3]">{t('hero.designation')}</span>.
+            <span className=" text-[#16f2b3]">{t('hero.designation')}</span>. */}
+            {t('hero.hero_title')}
+            <span className="text-pink-500">{t('hero.hero_title2')}</span>
           </h1>
 
           <div className="my-12 flex items-center gap-5">

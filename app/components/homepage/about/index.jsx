@@ -16,16 +16,18 @@ function AboutSection() {
         </span>
         <span className="h-36 w-0.5 bg-[#1a1443]"></span>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+      <div className="">
         <div className="order-2 lg:order-1">
-          <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
+          <p className="font-medium mb-5 text-center md:mb-8 text-[#16f2b3] text-xl uppercase">
             {t('about.title')}
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">
-            {t('about.description')}
-          </p>
+          <div className="max-w-[77%] mx-auto text-center">
+            <p className="text-gray-200 text-sm lg:text-lg">
+              {t('about.description')}
+            </p>
+          </div>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
+        {/* <div className="flex justify-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
             width={280}
@@ -33,7 +35,7 @@ function AboutSection() {
             alt="Profile"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

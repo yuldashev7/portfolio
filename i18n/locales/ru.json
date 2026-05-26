@@ -11,10 +11,8 @@
     "projects": "ПРОЕКТЫ"
   },
   "hero": {
-    "greeting": "Привет,",
-    "introPrefix": "Моё имя",
-    "introMiddle": ", я профессиональный",
-    "designation": "Frontend разработчик",
+    "hero_title": "Frontend-разработчик, нацеленный на производительность, чистый UI & ",
+    "hero_title2": "реальный результат.",
     "contact": "Связаться",
     "resume": "Резюме",
     "code": {
@@ -37,15 +35,15 @@
     "items": [
       {
         "id": 1,
-        "title": "Стажер Frontend Developer",
+        "title": "Стажер Фронтенд Разработчик",
         "company": "IT HOUSE edu.",
-        "duration": "(Ноя 2025 - Фев 2026)"
+        "duration": "(Янв 2025 - Март 2026)"
       },
       {
         "id": 2,
-        "title": "Frontend Developer",
+        "title": "Фронтенд Разработчик",
         "company": "Infonex.uz",
-        "duration": "(Мар 2026 - Настоящее время)"
+        "duration": "(Март 2026 - Настоящее время)"
       }
     ]
   },
