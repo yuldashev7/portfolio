@@ -11,7 +11,7 @@ export const personalData = {
   facebook: 'https://www.facebook.com/abusaid.riyaz/',
   linkedIn: 'https://www.linkedin.com/in/faxriddin-yuldashev-1a3050377/',
   telegram: 'https://t.me/yuldashevv_f',
-  devUsername: 'said7388',
+  devUsername: 'yuldashevv_f',
   resume:
-    'https://drive.google.com/file/d/1Nw1sSg5rfgU16y9Ct6ei75lDsHET3CFS/view?usp=drive_link',
+    'https://drive.google.com/file/d/1cj4DTznKaEM0XApivuMGn0zh91H88a5v/view?usp=drive_open',
 };

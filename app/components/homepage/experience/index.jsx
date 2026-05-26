@@ -1,4 +1,3 @@
-// @flow strict
 'use client';
 
 import { useI18n } from '@/providers/language-provider';
