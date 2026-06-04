@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-export default function CyberCursor() {
+export default function AnimateCursorWrapper() {
   const dotRef = useRef(null);
   const followerRef = useRef(null);
 

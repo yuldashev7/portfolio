@@ -10,7 +10,7 @@ import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/shadcn.css";
 import "./css/globals.scss";
-import CyberCursor from "./components/cursor-animate";
+import AnimateCursorWrapper from "./components/cursor-animate";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ToastContainer />
 
-        <CyberCursor />
+        <AnimateCursorWrapper />
 
         <LanguageProvider>
           <SmoothScrollProvider>
