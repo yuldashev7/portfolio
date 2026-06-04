@@ -2,12 +2,12 @@ import en from './locales/en.json';
 import ru from './locales/ru.json';
 import uz from './locales/uz.json';
 
-export const DEFAULT_LANGUAGE = 'uz';
+export const DEFAULT_LANGUAGE = 'en';
 export const LANGUAGE_STORAGE_KEY = 'site-language';
 export const dictionaries = {
+  en,
   uz,
   ru,
-  en,
 };
 
 export const languages = Object.keys(dictionaries);

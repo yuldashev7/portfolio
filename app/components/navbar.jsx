@@ -89,14 +89,14 @@ function Navbar() {
               </SelectTrigger>
               <SelectContent position="popper">
                 <SelectGroup>
-                  <SelectItem className="cursor-pointer" value="uz">
-                    UZ
+                  <SelectItem className="cursor-pointer" value="en">
+                    EN
                   </SelectItem>
                   <SelectItem className="cursor-pointer" value="ru">
                     RU
                   </SelectItem>
-                  <SelectItem className="cursor-pointer" value="en">
-                    EN
+                  <SelectItem className="cursor-pointer" value="uz">
+                    UZ
                   </SelectItem>
                 </SelectGroup>
               </SelectContent>
