@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useI18n } from '@/providers/language-provider';
+import Link from "next/link";
+import { useI18n } from "@/providers/language-provider";
 import {
   Select,
   SelectContent,
@@ -9,7 +9,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from './ui/select';
+} from "./ui/select";
 
 function Navbar() {
   const { language, setLanguage, t } = useI18n();
@@ -19,7 +19,7 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex shrink-0 items-center">
           <Link href="/" className=" text-[#16f2b3] text-2xl font-bold">
-            Yuldashev Faxriddin
+            Faxriddin Yuldashev
           </Link>
         </div>
 
@@ -33,7 +33,7 @@ function Navbar() {
               href="/#about"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                {t('navbar.about')}
+                {t("navbar.about")}
               </div>
             </Link>
           </li>
@@ -43,7 +43,7 @@ function Navbar() {
               href="/#experience"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                {t('navbar.experience')}
+                {t("navbar.experience")}
               </div>
             </Link>
           </li>
@@ -53,7 +53,7 @@ function Navbar() {
               href="/#skills"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                {t('navbar.skills')}
+                {t("navbar.skills")}
               </div>
             </Link>
           </li>
@@ -63,7 +63,7 @@ function Navbar() {
               href="/#education"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                {t('navbar.education')}
+                {t("navbar.education")}
               </div>
             </Link>
           </li>
@@ -73,7 +73,7 @@ function Navbar() {
               href="/#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                {t('navbar.projects')}
+                {t("navbar.projects")}
               </div>
             </Link>
           </li>
