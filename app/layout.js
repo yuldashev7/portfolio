@@ -11,6 +11,7 @@ import "./css/card.scss";
 import "./css/shadcn.css";
 import "./css/globals.scss";
 import AnimateCursorWrapper from "./components/cursor-animate";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
         </LanguageProvider>
 
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
+        <SpeedInsights />
       </body>
     </html>
   );
