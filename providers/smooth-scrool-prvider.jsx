@@ -11,20 +11,28 @@ const SmoothScrollProvider = ({ children }) => {
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      orientation: "vertical",
       smoothWheel: true,
+      wheelMultiplier: 1,
+      touchMultiplier: 2,
+      infinite: false,
     });
 
-    lenis.on("scroll", ScrollTrigger.update);
+    function raf(time) {
+      lenis.raf(time);
+      ScrollTrigger.update();
+      requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
 
-    gsap.ticker.add((time) => {
-      lenis.raf(time * 1000);
+    const resizeObserver = new ResizeObserver(() => {
+      ScrollTrigger.refresh();
     });
-
-    gsap.ticker.lagSmoothing(0);
+    resizeObserver.observe(document.body);
 
     return () => {
       lenis.destroy();
-      gsap.ticker.remove(lenis.raf);
+      resizeObserver.disconnect();
     };
   }, []);
 
