@@ -80,7 +80,7 @@
       {
         "id": 4,
         "name": "INFODESK - ERP & LMS ECOSYSTEM",
-        "description": "Ta'lim markazlari uchun mo'ljallangan kompleks boshqaruv va o'quv platformasi. Asosiy imkoniyatlari orasida CEO, Admin, Teacher va Student rollari uchun dashboardlar, lead boshqaruvi uchun Instagram API bilan integratsiyalashgan CRM, real-time chat va notificationlar, moliyaviy analitika hamda interaktiv testlar, ta'limiy Reels va coin asosidagi marketga ega gamifikatsiyalashgan LMS bor. Loyiha hozir boshlang'ich rivojlantirish bosqichida va asosiy funksiyalar faol ravishda qurilmoqda.",
+        "description": "Ta'lim markazlari uchun mo'ljallangan kompleks boshqaruv va o'quv platformasi. Asosiy imkoniyatlari orasida CEO, Admin, Operator, Teacher va Student rollari uchun dashboardlar, lead boshqaruvi uchun Instagram API bilan integratsiyalashgan CRM, real-time chat va notificationlar, moliyaviy analitika hamda interaktiv testlar, ta'limiy Reels va coin asosidagi marketga ega gamifikatsiyalashgan LMS bor. Loyiha hozir boshlang'ich rivojlantirish bosqichida va asosiy funksiyalar faol ravishda qurilmoqda.",
         "role": "Frontend Developer"
       }
     ]
@@ -117,5 +117,10 @@
   },
   "footer": {
     "copyright": "Developer Portfolio by"
+  },
+   "not_found_page":{
+    "title":"Sahifa topilmadi",
+    "text":"Kechirasiz, siz qidirayotgan sahifa mavjud emas.",
+    "button":"Bosh sahifaga qaytish"
   }
 }

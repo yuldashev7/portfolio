@@ -48,6 +48,6 @@ export const skillsImage = (skill) => {
     case "zustand":
       return zustand;
     default:
-      return null; 
+      return null;
   }
 };

@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useI18n } from '@/providers/language-provider';
+import Link from "next/link";
+import { useI18n } from "@/providers/language-provider";
 
 function Footer() {
   const { t } = useI18n();
@@ -14,7 +14,7 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            &copy; {t('footer.copyright')}{' '}
+            &copy; {t("footer.copyright")}{" "}
             <Link
               target="_blank"
               href="https://www.linkedin.com/in/faxriddin-yuldashev-1a3050377/"

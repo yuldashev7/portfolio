@@ -1,24 +1,24 @@
-'use client';
+"use client";
 
-import { createContext, useContext, useEffect, useMemo, useState } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import {
   DEFAULT_LANGUAGE,
   getDictionary,
   getNestedValue,
   isValidLanguage,
   LANGUAGE_STORAGE_KEY,
-} from '@/i18n';
+} from "@/i18n";
 
 const LanguageContext = createContext(null);
 
 function interpolate(template, values) {
-  if (typeof template !== 'string' || !values) {
+  if (typeof template !== "string" || !values) {
     return template;
   }
 
   return Object.entries(values).reduce(
     (result, [key, value]) => result.replaceAll(`{${key}}`, value),
-    template
+    template,
   );
 }
 
@@ -66,7 +66,7 @@ export function LanguageProvider({ children }) {
         return interpolate(translatedValue, variables);
       },
     }),
-    [dictionary, language]
+    [dictionary, language],
   );
 
   return (
@@ -80,7 +80,7 @@ export function useI18n() {
   const context = useContext(LanguageContext);
 
   if (!context) {
-    throw new Error('useI18n must be used within LanguageProvider');
+    throw new Error("useI18n must be used within LanguageProvider");
   }
 
   return context;

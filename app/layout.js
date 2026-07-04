@@ -39,8 +39,8 @@ export default function RootLayout({ children }) {
               {children}
               <ScrollToTop />
             </main>
+            <Footer />
           </SmoothScrollProvider>
-          <Footer />
         </LanguageProvider>
 
         <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />

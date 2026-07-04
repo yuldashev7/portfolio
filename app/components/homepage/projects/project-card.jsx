@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import * as React from 'react';
-import { useI18n } from '@/providers/language-provider';
+import * as React from "react";
+import { useI18n } from "@/providers/language-provider";
 
 function ProjectCard({ project, translation }) {
   const { t } = useI18n();
@@ -29,11 +29,11 @@ function ProjectCard({ project, translation }) {
             <span className="mr-2 text-pink-500">const</span>
             <span className="mr-2 text-white">project</span>
             <span className="mr-2 text-pink-500">=</span>
-            <span className="text-gray-400">{'{'}</span>
+            <span className="text-gray-400">{"{"}</span>
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">
-              {t('projects.code.name')}:
+              {t("projects.code.name")}:
             </span>
             <span className="text-gray-400">{`'`}</span>
             <span className="text-amber-300">{localizedProject.name}</span>
@@ -41,7 +41,7 @@ function ProjectCard({ project, translation }) {
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">{t('projects.code.tools')}:</span>
+            <span className="text-white">{t("projects.code.tools")}:</span>
             <span className="text-gray-400">{` ['`}</span>
             {project.tools.map((tag, i) => (
               <React.Fragment key={i}>
@@ -55,17 +55,17 @@ function ProjectCard({ project, translation }) {
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">
-              {t('projects.code.role')}:
+              {t("projects.code.role")}:
             </span>
             <span className="text-orange-400">{localizedProject.role}</span>
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">
-              {t('projects.code.description')}:
+              {t("projects.code.description")}:
             </span>
             <span className="text-cyan-400">
-              {' ' + localizedProject.description}
+              {" " + localizedProject.description}
             </span>
             <span className="text-gray-400">,</span>
           </div>

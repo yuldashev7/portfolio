@@ -1,9 +1,9 @@
-import en from './locales/en.json';
-import ru from './locales/ru.json';
-import uz from './locales/uz.json';
+import en from "./locales/en.json";
+import ru from "./locales/ru.json";
+import uz from "./locales/uz.json";
 
-export const DEFAULT_LANGUAGE = 'en';
-export const LANGUAGE_STORAGE_KEY = 'site-language';
+export const DEFAULT_LANGUAGE = "en";
+export const LANGUAGE_STORAGE_KEY = "site-language";
 export const dictionaries = {
   en,
   uz,
@@ -22,6 +22,6 @@ export function getDictionary(language) {
 
 export function getNestedValue(object, path) {
   return path
-    .split('.')
+    .split(".")
     .reduce((accumulator, key) => accumulator?.[key], object);
 }

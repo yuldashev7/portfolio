@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { projectsData } from '@/utils/data/projects-data';
-import { useI18n } from '@/providers/language-provider';
-import ProjectCard from './project-card';
+import { projectsData } from "@/utils/data/projects-data";
+import { useI18n } from "@/providers/language-provider";
+import ProjectCard from "./project-card";
 
 const Projects = () => {
   const { dictionary } = useI18n();
@@ -32,7 +32,7 @@ const Projects = () => {
                 <ProjectCard
                   project={project}
                   translation={localizedProjects.find(
-                    (item) => item.id === project.id
+                    (item) => item.id === project.id,
                   )}
                 />
               </div>

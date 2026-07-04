@@ -80,7 +80,7 @@
       {
         "id": 4,
         "name": "INFODESK - ERP & LMS ECOSYSTEM",
-        "description": "A comprehensive management and learning platform designed for educational centers. Its key features include role-based dashboards for CEO, Admin, Teacher, and Student, an advanced CRM integrated with the Instagram API for lead management, real-time chat and notifications, financial analytics, and a gamified LMS with interactive tests, educational reels, and a coin-based market. The project is currently in an early development stage, and the core features are actively being built.",
+        "description": "A comprehensive management and learning platform designed for educational centers. Its key features include role-based dashboards for CEO, Admin, Operator, Teacher, and Student, an advanced CRM integrated with the Instagram API for lead management, real-time chat and notifications, financial analytics, and a gamified LMS with interactive tests, educational reels, and a coin-based market. The project is currently in an early development stage, and the core features are actively being built.",
         "role": "Frontend Developer"
       }
     ]
@@ -117,5 +117,10 @@
   },
   "footer": {
     "copyright": "Developer Portfolio by"
+  },
+  "not_found_page":{
+    "title":"Page Not Found",
+    "text":"Sorry, the page you are looking for does not exist.",
+    "button":"Go to Home"
   }
 }

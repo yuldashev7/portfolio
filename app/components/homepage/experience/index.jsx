@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import { useI18n } from '@/providers/language-provider';
-import Image from 'next/image';
-import { BsPersonWorkspace } from 'react-icons/bs';
-import experienceAnimation from '../../../assets/lottie/code.json';
-import AnimationLottie from '../../helper/animation-lottie';
-import GlowCard from '../../helper/glow-card';
+import { useI18n } from "@/providers/language-provider";
+import Image from "next/image";
+import { BsPersonWorkspace } from "react-icons/bs";
+import experienceAnimation from "../../../assets/lottie/code.json";
+import AnimationLottie from "../../helper/animation-lottie";
+import GlowCard from "../../helper/glow-card";
 
 function Experience() {
   const { dictionary } = useI18n();
