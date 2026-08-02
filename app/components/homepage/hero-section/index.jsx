@@ -117,6 +117,8 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Redux Toolkit</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Zustand</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Shadcn-UI</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Material-UI</span>

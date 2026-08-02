@@ -13,5 +13,5 @@ export const personalData = {
   telegram: "https://t.me/yuldashevv_f",
   devUsername: "yuldashevv_f",
   resume:
-    "https://drive.google.com/file/d/1PpHVA62vsFrIL3i35VnWIM3bpvPlxUCt/view?usp=drive_link",
+    "https://drive.google.com/file/d/1AORQZ4YT-PZqRKu8tzieXgpmhYWFt0Hy/view?usp=drive_link",
 };
