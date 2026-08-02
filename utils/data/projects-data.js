@@ -45,11 +45,27 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "INFODESK — ERP & LMS ECOSYSTEM",
+    name: "Igoo Multi-Tenant CRM Platform",
     description:
-      "A comprehensive management and learning platform designed for educational centers. Key features include role-based dashboards (CEO, Admin, Operator, Teacher, Student), advanced CRM with Instagram API integration for lead management, real-time chat and notifications, financial analytics, and a gamified LMS with an interactive test module, educational Reels, and a coin-based Market. The project is currently in its initial development stage, with core functionalities being actively built and tested",
+      "Igoo.uz is a scalable multi-tenant CRM platform built for educational centers. Each institution operates within its own isolated workspace and subdomain, while role-based access for Super Admin, Center Admin, and Operators streamlines daily operations. The platform centralizes lead, student, teacher, group, attendance, and payment management, with Instagram and Facebook integrations that automatically convert incoming messages into CRM leads, alongside real-time communication powered by WebSockets.",
     tools: [
       "NextJS",
+      "Type Script",
+      "Shadcn UI",
+      "Tanstack Query",
+      "Tailwind-CSS",
+    ],
+    role: "Frontend Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 5,
+    name: "Bepul Market",
+    description:
+      "Bepul Market is a comprehensive operations management platform built for retail businesses. It centralizes product catalog management, warehouse inventory, stores, couriers, orders, users, and financial operations within a unified dashboard. The platform also includes promotional campaign management, banner administration, and a messaging system, providing administrators with complete control over day-to-day business operations.",
+    tools: [
+      "ReactJS",
       "Type Script",
       "Shadcn UI",
       "Tanstack Query",

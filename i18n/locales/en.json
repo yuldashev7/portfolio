@@ -79,8 +79,14 @@
       },
       {
         "id": 4,
-        "name": "INFODESK - ERP & LMS ECOSYSTEM",
-        "description": "A comprehensive management and learning platform designed for educational centers. Its key features include role-based dashboards for CEO, Admin, Operator, Teacher, and Student, an advanced CRM integrated with the Instagram API for lead management, real-time chat and notifications, financial analytics, and a gamified LMS with interactive tests, educational reels, and a coin-based market. The project is currently in an early development stage, and the core features are actively being built.",
+        "name": "Igoo Multi-Tenant CRM Platform",
+        "description": "Igoo.uz is a scalable multi-tenant CRM platform built for educational centers. Each institution operates within its own isolated workspace and subdomain, while role-based access for Super Admin, Center Admin, and Operators streamlines daily operations. The platform centralizes lead, student, teacher, group, attendance, and payment management, with Instagram and Facebook integrations that automatically convert incoming messages into CRM leads, alongside real-time communication powered by WebSockets.",
+        "role": "Frontend Developer"
+      },
+      {
+        "id": 5,
+        "name": "Bepul Market",
+        "description": "Bepul Market is a comprehensive operations management platform built for retail businesses. It centralizes product catalog management, warehouse inventory, stores, couriers, orders, users, and financial operations within a unified dashboard. The platform also includes promotional campaign management, banner administration, and a messaging system, providing administrators with complete control over day-to-day business operations.",
         "role": "Frontend Developer"
       }
     ]
