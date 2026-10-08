@@ -79,8 +79,8 @@
       },
       {
         "id": 4,
-        "name": "Igoo Multi-Tenant CRM Platform",
-        "description": "Igoo.uz — ta'lim markazlari uchun yaratilgan, kengaytiriladigan multi-tenant CRM platforma. Har bir muassasa o'zining alohida workspace va subdomenida ishlaydi, Super Admin, Center Admin va operatorlar uchun rolga asoslangan huquqlar esa kundalik jarayonlarni soddalashtiradi. Platforma lead, o'quvchi, o'qituvchi, guruh, davomat va to'lovlar boshqaruvini bir joyda markazlashtiradi, Instagram va Facebook integratsiyalari esa kiruvchi xabarlarni avtomatik ravishda CRM lead'larga aylantiradi. Bundan tashqari, WebSocket asosida real-time muloqot ham qo'llab-quvvatlanadi.",
+        "name": "Igoo — o‘quv markazlari uchun yaratilgan multi-tenant LMS/CRM platformasi.",
+        "description": "Tizim leadlarni boshqarish, guruh va o‘quvchilar nazorati, davomat, moliya, to‘lovlar hamda analitikani yagona panelda birlashtiradi. Loyihada Click va Payme to‘lov tizimlari, SMS xabarnomalar, SIP telefoniya, Meta/Instagram, real-time WebSocket bildirishnomalari hamda rasm, video va hujjatlarni xavfsiz saqlash uchun AWS S3 integratsiyalari mavjud. Har bir o‘quv markazi alohida subdomen va himoyalangan ma’lumotlar muhiti orqali ishlaydi.",
         "role": "Frontend Developer"
       },
       {
@@ -124,9 +124,9 @@
   "footer": {
     "copyright": "Developer Portfolio by"
   },
-   "not_found_page":{
-    "title":"Sahifa topilmadi",
-    "text":"Kechirasiz, siz qidirayotgan sahifa mavjud emas.",
-    "button":"Bosh sahifaga qaytish"
+  "not_found_page": {
+    "title": "Sahifa topilmadi",
+    "text": "Kechirasiz, siz qidirayotgan sahifa mavjud emas.",
+    "button": "Bosh sahifaga qaytish"
   }
 }

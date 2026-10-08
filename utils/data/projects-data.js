@@ -54,6 +54,7 @@ export const projectsData = [
       "Shadcn UI",
       "Tanstack Query",
       "Tailwind-CSS",
+      "WebSocket",
     ],
     role: "Frontend Developer",
     code: "",

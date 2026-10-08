@@ -79,8 +79,8 @@
       },
       {
         "id": 4,
-        "name": "Igoo Multi-Tenant CRM Platform",
-        "description": "Igoo.uz is a scalable multi-tenant CRM platform built for educational centers. Each institution operates within its own isolated workspace and subdomain, while role-based access for Super Admin, Center Admin, and Operators streamlines daily operations. The platform centralizes lead, student, teacher, group, attendance, and payment management, with Instagram and Facebook integrations that automatically convert incoming messages into CRM leads, alongside real-time communication powered by WebSockets.",
+        "name": "Igoo is a multi-tenant LMS/CRM platform designed for educational centers.",
+        "description": "It brings lead management, student and group administration, attendance tracking, finance, payments, and analytics together in one dashboard. The platform integrates Click and Payme payment systems, SMS notifications, SIP telephony, Meta/Instagram, real-time WebSocket notifications, and AWS S3 for secure storage of images, videos, and documents. Each educational center operates through its own subdomain within an isolated and secure data environment.",
         "role": "Frontend Developer"
       },
       {
@@ -124,9 +124,9 @@
   "footer": {
     "copyright": "Developer Portfolio by"
   },
-  "not_found_page":{
-    "title":"Page Not Found",
-    "text":"Sorry, the page you are looking for does not exist.",
-    "button":"Go to Home"
+  "not_found_page": {
+    "title": "Page Not Found",
+    "text": "Sorry, the page you are looking for does not exist.",
+    "button": "Go to Home"
   }
 }
